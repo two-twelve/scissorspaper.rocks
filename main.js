@@ -1,5 +1,5 @@
-const latticeWidth = 512
-const latticeHeight = 512
+const latticeWidth = 1024
+const latticeHeight = 1024
 
 let rockPaperScissorsShader
 let backBuffer
@@ -15,6 +15,7 @@ function preload(){
 
 function setup() {
   pixelDensity(1.0)
+  frameRate(60)
   
   canvas = createCanvas(latticeWidth, latticeHeight, WEBGL)
   backBuffer = createGraphics(latticeWidth, latticeHeight, WEBGL)
