@@ -1,5 +1,5 @@
-const latticeWidth = 1024
-const latticeHeight = 1024
+const latticeWidth = 512
+const latticeHeight = 512
 
 let rockPaperScissorsShader
 let backBuffer
