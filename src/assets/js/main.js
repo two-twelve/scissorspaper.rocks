@@ -10,7 +10,7 @@ let paperColour
 let scissorsColour
 
 function preload(){
-  rockPaperScissorsShader = loadShader('./vertex.glsl', './fragment.glsl')
+  rockPaperScissorsShader = loadShader('/assets/shaders/vertex.glsl', '/assets/shaders/fragment.glsl')
 }
 
 function setup() {

@@ -1,0 +1,24 @@
+{
+  "name": "scissorspaper.rocks",
+  "version": "1.0.0",
+  "description": "ScissorsPaper.Rocks is an example webpage for how to run cellular automata in a browser using WebGL. You can read more about it [here]().",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/two-twelve/scissorspaper.rocks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/two-twelve/scissorspaper.rocks/issues"
+  },
+  "homepage": "https://github.com/two-twelve/scissorspaper.rocks#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
